@@ -20,7 +20,7 @@ public class AuthenticationController : Controller
         {
             // Note: when only one client is registered in the client options,
             // setting the issuer property is not required and can be omitted.
-            [OpenIddictClientAspNetCoreConstants.Properties.Issuer] = "https://localhost:44313/"
+            [OpenIddictClientAspNetCoreConstants.Properties.Issuer] = "https://localhost:44310/"
         })
         {
             // Only allow local return URLs to prevent open redirect attacks.
@@ -50,7 +50,7 @@ public class AuthenticationController : Controller
         {
             // Note: when only one client is registered in the client options,
             // setting the issuer property is not required and can be omitted.
-            [OpenIddictClientAspNetCoreConstants.Properties.Issuer] = "https://localhost:44313/",
+            [OpenIddictClientAspNetCoreConstants.Properties.Issuer] = "https://localhost:44310/",
 
             // While not required, the specification encourages sending an id_token_hint
             // parameter containing an identity token returned by the server for this user.
