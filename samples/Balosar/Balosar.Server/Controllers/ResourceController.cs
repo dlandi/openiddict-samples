@@ -6,10 +6,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using OpenIddict.Abstractions;
 using OpenIddict.Validation.AspNetCore;
-using Velusia.Server.Data;
+using Balosar.Server.Data;
+using Balosar.Server.Models; 
 using static OpenIddict.Abstractions.OpenIddictConstants;
 
-namespace Velusia.Server.Controllers;
+namespace Balosar.Server.Controllers;
 
 [Route("api")]
 public class ResourceController : Controller
