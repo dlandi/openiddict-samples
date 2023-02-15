@@ -63,7 +63,7 @@ namespace Mortis.Client
                     // Add a client registration matching the client application definition in the server project.
                     options.AddRegistration(new OpenIddictClientRegistration
                     {
-                        Issuer = new Uri("https://localhost:44349/", UriKind.Absolute),
+                        Issuer = new Uri("https://localhost:44310/", UriKind.Absolute),
 
                         ClientId = "mvcMortisClient",
                         ClientSecret = "901564A5-E7FE-42CB-B10D-61EF6A8F3654",
